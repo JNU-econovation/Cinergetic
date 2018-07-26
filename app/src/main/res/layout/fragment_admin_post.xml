@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+
+    <!-- 요일 선택 레이아웃 -->
+    <RadioGroup
+        android:id="@+id/radioGroup_inPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_1"
+            android:checked="true"
+            android:layout_margin="3dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_2"
+            android:layout_margin="3dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_3"
+            android:layout_margin="3dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_4"
+            android:layout_margin="3dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_5"
+            android:layout_margin="3dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_6"
+            android:layout_margin="3dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_7"
+            android:layout_margin="3dp"/>
+
+    </RadioGroup>
+
+    <!-- 상영영화 정보 입력 레이아웃 -->
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_gravity="center_horizontal">
+
+        <!--1열-->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/movie_name1"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:textSize="15dp"
+                android:layout_weight="4"
+                android:paddingLeft="10dp"
+                android:dropDownWidth="wrap_content"/>
+
+            <EditText
+                android:id="@+id/movie_time1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="상영시간"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:layout_weight="4"/>
+
+            <ImageView
+                android:id="@+id/xmark1"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/letter_x"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+        </TableRow>
+
+        <!--2열-->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/movie_name2"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:textSize="15dp"
+                android:paddingLeft="10dp"
+                android:layout_weight="4"
+                android:dropDownWidth="wrap_content"/>
+
+            <EditText
+                android:id="@+id/movie_time2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="상영시간"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:layout_weight="4"/>
+
+            <ImageView
+                android:id="@+id/xmark2"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/letter_x"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+        </TableRow>
+
+        <!--3열-->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/movie_name3"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:textSize="15dp"
+                android:layout_weight="4"
+                android:paddingLeft="10dp"
+                android:dropDownWidth="wrap_content"/>
+
+            <EditText
+                android:id="@+id/movie_time3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="상영시간"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:layout_weight="4"/>
+
+            <ImageView
+                android:id="@+id/xmark3"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/letter_x"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+        </TableRow>
+
+        <!--4열-->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/movie_name4"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:textSize="15dp"
+                android:layout_weight="4"
+                android:paddingLeft="10dp"
+                android:dropDownWidth="wrap_content"/>
+
+            <EditText
+                android:id="@+id/movie_time4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="상영시간"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:layout_weight="4"/>
+
+            <ImageView
+                android:id="@+id/xmark4"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/letter_x"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+        </TableRow>
+
+        <!--5열-->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/movie_name5"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:textSize="15dp"
+                android:layout_weight="4"
+                android:paddingLeft="10dp"
+                android:dropDownWidth="wrap_content"/>
+
+            <EditText
+                android:id="@+id/movie_time5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="상영시간"
+                android:inputType="textPersonName"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:layout_weight="4"/>
+
+            <ImageView
+                android:id="@+id/xmark5"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/letter_x"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+        </TableRow>
+
+        <!--6열-->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:textAlignment="center"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+
+            <Spinner
+                android:id="@+id/movie_name6"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:textSize="15dp"
+                android:layout_weight="4"
+                android:paddingLeft="10dp"
+                android:dropDownWidth="wrap_content"/>
+
+            <EditText
+                android:id="@+id/movie_time6"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:hint="상영시간"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="15dp"
+                android:layout_weight="4"/>
+
+            <ImageView
+                android:id="@+id/xmark6"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/letter_x"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="50dp"
+        android:background="@drawable/button"
+        android:text="추가"
+        android:textColor="#ffffff"
+        android:textSize="15dp" />
+
+</LinearLayout>

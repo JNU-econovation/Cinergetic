@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+
+    <Spinner
+        android:id="@+id/main_spinner"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:fadeScrollbars="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:background="#eeeeee"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.497">
+
+
+            <ImageView
+                android:id="@+id/movie_poster1"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:src="@drawable/pposter" />
+
+            <ImageView
+                android:id="@+id/movie_poster2"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:src="@drawable/pposter" />
+
+            <ImageView
+                android:id="@+id/movie_poster3"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:src="@drawable/pposter" />
+
+            <ImageView
+                android:id="@+id/movie_poster4"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:src="@drawable/pposter" />
+
+            <ImageView
+                android:id="@+id/movie_poster5"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:src="@drawable/pposter" />
+
+            <ImageView
+                android:id="@+id/movie_poster6"
+                android:layout_width="170dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:src="@drawable/pposter" />
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+<!--
+    <Button
+        android:id="@+id/support"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_weight="1"
+        android:background="#FFFFFFFF"
+        android:drawableTop="@drawable/heartbox"
+        android:text="Support"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/intro_theater"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+        app:layout_constraintVertical_bias="0.9" />
+
+
+    <Button
+        android:id="@+id/intro_theater"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        android:background="#FFFFFFFF"
+        android:drawableTop="@drawable/placeholder"
+        android:text="Location"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/support"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView"
+        app:layout_constraintVertical_bias="0.9" />
+
+-->
+
+
+</android.support.constraint.ConstraintLayout>

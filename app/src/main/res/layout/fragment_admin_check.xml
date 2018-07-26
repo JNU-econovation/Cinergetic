@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/radioGroup_inShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_1"
+            android:checked="true"
+            android:layout_margin="3dp" />
+
+        <RadioButton
+            android:id="@+id/radioButton9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_2"
+            android:layout_margin="3dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_3"
+            android:layout_margin="3dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_4"
+            android:layout_margin="3dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_5"
+            android:layout_margin="3dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton13"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_6"
+            android:layout_margin="3dp"/>
+
+        <RadioButton
+            android:id="@+id/radioButton14"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:button="@drawable/post_radio_7"
+            android:layout_margin="3dp"/>
+
+    </RadioGroup>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="영화명"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="상영시간"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/movieName_1"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="영화명"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/movieTime_1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="상영시간"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/movieName_2"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="영화명"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/movieTime_2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="상영시간"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/movieName_3"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="영화명"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/movieTime_3"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="상영시간"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/movieName_4"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="영화명"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/movieTime_4"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="상영시간"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/movieName_5"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="영화명"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/movieTime_5"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="상영시간"
+                android:textAlignment="center" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/movieName_6"
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:text="영화명"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/movieTime_6"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="상영시간"
+                android:textAlignment="center" />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

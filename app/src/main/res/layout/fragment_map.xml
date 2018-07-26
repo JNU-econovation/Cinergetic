@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tmonmonsori"
+                android:text="찾아오시는 길"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="주소: 광주광역시 동구 충장동 충장로 46번길 10"
+                android:textSize="15dp"
+                android:layout_marginTop="10dp"/>
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/cine_map"
+                android:name="com.google.android.gms.maps.MapFragment"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tmonmonsori"
+                android:text="시내버스 이용시"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="금남로 4가 하차"
+                android:textSize="15dp"
+                android:fontFamily="@font/nanumsquareeb"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumsquare"
+                android:layout_marginTop="5dp"
+                android:text="첨단95, 첨단09, 금호36, 운림51, 진월07, 금남57, 매월61, 수완49, 1197, 문흥39, 1000, 518, 매월61, 문흥80" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/tmonmonsori"
+                android:text="주차정보"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumsquare"
+                android:text="명성예식장 주차장/신흥주차장 주차시 3시간까지 50%할인 \n위치: 신흥주차장은 광주극장 바로 옆, 명성주차장은 천변방향으로 30m직진(오른편)"
+                android:layout_marginTop="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>

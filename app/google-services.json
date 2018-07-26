@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "1024652255120",
+    "firebase_url": "https://cinergeticdb-b4627.firebaseio.com",
+    "project_id": "cinergeticdb-b4627",
+    "storage_bucket": "cinergeticdb-b4627.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024652255120:android:03cc7691f46d395b",
+        "android_client_info": {
+          "package_name": "project.bong.com.cinergetic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024652255120-50rofbj75ivesl0ma2lne78c944vomlr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.bong.com.cinergetic",
+            "certificate_hash": "18fff336d800e158c2b878a11f21bf2a97bea0f9"
+          }
+        },
+        {
+          "client_id": "1024652255120-s3bbrsm76l16lm9d2lplrp5d34b17tfu.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "1024652255120-s3bbrsm76l16lm9d2lplrp5d34b17tfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1MNXSZAm5ydNOXf4iGuFZxYz4Ss_Aj7g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024652255120-s3bbrsm76l16lm9d2lplrp5d34b17tfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

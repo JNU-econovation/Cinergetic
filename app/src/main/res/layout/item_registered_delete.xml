@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="420dp"
+    android:padding="10dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <ImageView
+        android:id="@+id/img_x_mark"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/x"
+        android:layout_gravity="right"/>
+
+    <TextView
+        android:id="@+id/text_movieNm_delete_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="영화명"
+        android:textSize="15dp"
+        android:textAlignment="center"/>
+
+    <ImageView
+        android:id="@+id/img_poster_delete_dialog"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:src="@drawable/pposter"
+        android:layout_gravity="center"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/btn_delete_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="삭제"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

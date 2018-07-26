@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/detail_poster"
+                android:layout_width="180dp"
+                android:layout_height="300dp"
+                android:padding="5dp"
+                android:src="@drawable/pposter" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/detail_movieNm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_span="2"
+                        android:text="영화명"
+                        android:textSize="30dp"
+                        android:fontFamily="@font/tmonmonsori"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:padding="5dp"
+                        android:layout_weight="1"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="상영시간 :"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/nanumsquare"
+                        android:paddingRight="5dp"/>
+
+                    <TextView
+                        android:id="@+id/detial_runtime"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/nanumsquare"
+                        android:text="000분"
+                        android:textSize="15dp"
+                        android:layout_weight="1"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="상영등급 :"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/nanumsquare"
+                        android:paddingRight="5dp"/>
+                    <TextView
+                        android:id="@+id/detail_grade"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="전체관람가"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/nanumsquare"
+                        android:layout_weight="1"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="제작년도 :"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/nanumsquare"
+                        android:paddingRight="5dp"/>
+                    <TextView
+                        android:id="@+id/detail_prodYear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="0000(국가명)"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/nanumsquare"
+                        android:layout_weight="1"/>
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="영화개요 :"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/nanumsquare"
+                        android:paddingRight="5dp"/>
+                    <TextView
+                        android:id="@+id/detail_overview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="영화개요"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/nanumsquare"/>
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <TableRow android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumsquareeb"
+                    android:text="감독"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:id="@+id/detail_directorNm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumsquare"
+                    android:text="감독명"
+                    android:textSize="15dp"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumsquareeb"
+                    android:text="출연진"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/detail_actorNm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/nanumsquare"
+                    android:text="출연진 이름"
+                    android:textSize="15dp"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumsquareeb"
+                    android:text="줄거리"
+                    android:textSize="20dp" />
+            </TableRow>
+
+            <TableRow android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:id="@+id/detail_plot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nanumsquare"
+                    android:text="줄거리"
+                    android:textSize="15dp"
+                    android:layout_weight="1"/>
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_story"
+            android:icon="@drawable/story"
+            android:title="Cinema Story"
+            android:textColor="@color/white"/>
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/map"
+            android:title="Map"
+            android:textColor="@color/white"/>
+        <item
+            android:id="@+id/nav_footprints"
+            android:icon="@drawable/footprints"
+            android:title="Footprints"
+            android:textColor="@color/white"/>
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/support"
+            android:title="Support"
+            android:textColor="@color/white"/>
+    </group>
+
+    <item android:title="Administration">
+        <menu>
+            <item
+                android:id="@+id/nav_regist"
+                android:icon="@drawable/poster"
+                android:title="영화정보등록"
+                android:textColor="@color/white"/>
+            <item
+                android:id="@+id/nav_post"
+                android:icon="@drawable/post"
+                android:title="시간표 게시"
+                android:textColor="@color/white"/>
+            <item
+                android:id="@+id/nav_check"
+                android:icon="@drawable/check"
+                android:title="시간표 확인"
+                android:textColor="@color/white"/>
+        </menu>
+    </item>
+
+</menu>
